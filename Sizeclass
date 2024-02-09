@@ -1,0 +1,22 @@
+What’s Size Classes ?
+Size Classes enables creating adaptive interfaces that seamlessly adjust for different device sizes and orientations, thus simplifying the process of adaptive layouts.
+
+wC hC -> (Compact Width 		Compact Height)
+wR hC -> (Regular Width		Compact Height)
+wR hR -> (Regular Width 		Regular Height)
+wC hR -> (Compact Width		Regular Height)
+
+What is this 🧐 ?
+Interface Builder recognises nine different size classes. The above 4 size classes are `Final Size Classes`
+The remaining 5 are `Base Size Classes`. Let’s not dive deep into it now.
+
+Let’s use Size Classes on a UILabel in Interface Builder, to understand how it works
+
+1. Drag and drop a UILabel on a view
+2. Set desired constraints
+3. Now go to Attribute Inspector
+4. Customising font size of label [Size class variant for iPad (wR hR) to display headline label with font size of 80]
+https://github.com/Guru7373/linkedinpost/blob/master/interfacemodify.png
+
+size classes for iPad models and iPhone in different orientations 
+https://github.com/Guru7373/linkedinpost/blob/master/image.png
